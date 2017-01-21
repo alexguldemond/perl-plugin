@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Built-By: build
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_111
+Extension-Name: perl
+Implementation-Title: perl
+Implementation-Version: 1.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: perl
+Long-Name: Perl Plugin
+Url: http://jenkins-ci.org/plugin/perl/
+Plugin-Version: 1.0
+Hudson-Version: 1.565.1
+Jenkins-Version: 1.565.1
+Plugin-Developers: Alex Guldemond:alexguldemond:alexguldemond@gmail.com
+

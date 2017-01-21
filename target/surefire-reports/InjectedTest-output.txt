@@ -1,0 +1,58 @@
+Exploding /home/build/.m2/repository/org/jenkins-ci/main/jenkins-war/1.565.1/jenkins-war-1.565.1-war-for-test.jar into /home/build/Jenkins/perl-plugin/./target/jenkins-for-testx
+Jan 21, 2017 10:30:10 PM org.mortbay.log.Slf4jLog info
+INFO: Logging to org.slf4j.impl.JDK14LoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+Jan 21, 2017 10:30:10 PM org.mortbay.log.Slf4jLog info
+INFO: jetty-6.1.26
+Jan 21, 2017 10:30:10 PM org.mortbay.log.Slf4jLog info
+INFO: NO JSP Support for , did not find org.apache.jasper.servlet.JspServlet
+Jan 21, 2017 10:30:10 PM org.mortbay.log.Slf4jLog info
+INFO: Started SocketConnector@0.0.0.0:43919
+Jan 21, 2017 10:30:11 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Jan 21, 2017 10:30:17 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Jan 21, 2017 10:30:17 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Jan 21, 2017 10:30:17 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Jan 21, 2017 10:30:17 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Jan 21, 2017 10:30:17 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Jan 21, 2017 10:30:30 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Jan 21, 2017 10:30:31 PM hudson.TcpSlaveAgentListener <init>
+INFO: JNLP slave agent listener started on TCP port 42424
+Effective SlaveRestarter on master: null
+Jan 21, 2017 10:30:32 PM org.mortbay.log.Slf4jLog info
+INFO: jetty-6.1.26
+Jan 21, 2017 10:30:32 PM org.mortbay.log.Slf4jLog info
+INFO: Started SocketConnector@0.0.0.0:43313
+Jan 21, 2017 10:30:38 PM org.mortbay.log.Slf4jLog info
+INFO: Stopped SocketConnector@0.0.0.0:43919
+Jan 21, 2017 10:30:39 PM org.mortbay.log.Slf4jLog info
+INFO: jetty-6.1.26
+Jan 21, 2017 10:30:39 PM org.mortbay.log.Slf4jLog info
+INFO: NO JSP Support for , did not find org.apache.jasper.servlet.JspServlet
+Jan 21, 2017 10:30:39 PM org.mortbay.log.Slf4jLog info
+INFO: Started SocketConnector@0.0.0.0:37967
+Jan 21, 2017 10:30:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Jan 21, 2017 10:30:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Jan 21, 2017 10:30:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Jan 21, 2017 10:30:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Jan 21, 2017 10:30:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Jan 21, 2017 10:30:39 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Jan 21, 2017 10:30:43 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Jan 21, 2017 10:30:43 PM hudson.TcpSlaveAgentListener <init>
+INFO: JNLP slave agent listener started on TCP port 47074
+Effective SlaveRestarter on master: null
+=== Starting CliSanityTest.testCliSanity
+Jan 21, 2017 10:30:44 PM org.mortbay.log.Slf4jLog info
+INFO: Stopped SocketConnector@0.0.0.0:37967

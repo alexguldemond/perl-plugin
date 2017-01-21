@@ -1,0 +1,95 @@
+Exploding /home/build/.m2/repository/org/jenkins-ci/main/jenkins-war/1.565.1/jenkins-war-1.565.1-war-for-test.jar into /home/build/Jenkins/perl-plugin/./target/jenkins-for-test
+Jan 21, 2017 10:30:10 PM org.mortbay.log.Slf4jLog info
+INFO: Logging to org.slf4j.impl.JDK14LoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+Jan 21, 2017 10:30:10 PM org.mortbay.log.Slf4jLog info
+INFO: jetty-6.1.26
+Jan 21, 2017 10:30:10 PM org.mortbay.log.Slf4jLog info
+INFO: NO JSP Support for , did not find org.apache.jasper.servlet.JspServlet
+Jan 21, 2017 10:30:10 PM org.mortbay.log.Slf4jLog info
+INFO: Started SocketConnector@0.0.0.0:59283
+Jan 21, 2017 10:30:10 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Jan 21, 2017 10:30:17 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Jan 21, 2017 10:30:17 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Jan 21, 2017 10:30:17 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Jan 21, 2017 10:30:17 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Jan 21, 2017 10:30:17 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Jan 21, 2017 10:30:30 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Jan 21, 2017 10:30:31 PM hudson.TcpSlaveAgentListener <init>
+INFO: JNLP slave agent listener started on TCP port 44143
+Effective SlaveRestarter on master: null
+Jan 21, 2017 10:30:32 PM org.mortbay.log.Slf4jLog info
+INFO: jetty-6.1.26
+Jan 21, 2017 10:30:32 PM org.mortbay.log.Slf4jLog info
+INFO: Started SocketConnector@0.0.0.0:36166
+=== Starting PerlTest.testConfigRoundtrip
+Jan 21, 2017 10:30:50 PM com.gargoylesoftware.htmlunit.javascript.host.Document jsxFunction_createElement
+SEVERE: Unexpected exception occurred while parsing HTML snippet
+Jan 21, 2017 10:30:50 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[Unexpected exception occurred while parsing HTML snippet: input name="x"] sourceName=[http://localhost:59283/static/0153751c/scripts/prototype.js] line=[1927] lineSource=[null] lineOffset=[0]
+Jan 21, 2017 10:30:51 PM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+WARNING: CSS error: http://localhost:59283/static/0153751c/css/style.css [180:26] Error in expression. Invalid token "=". Was expecting one of: <S>, <COMMA>, "/", <PLUS>, "-", <HASH>, <STRING>, ")", <URI>, "inherit", <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <DIMENSION>, <PERCENTAGE>, <NUMBER>, <FUNCTION>, <IDENT>.
+Jan 21, 2017 10:30:51 PM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+WARNING: CSS error: http://localhost:59283/static/0153751c/css/style.css [180:31] Error in style rule. Invalid token " ". Was expecting one of: "}", ";".
+Jan 21, 2017 10:30:51 PM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler warning
+WARNING: CSS warning: http://localhost:59283/static/0153751c/css/style.css [180:31] Ignoring the following declarations in this rule.
+Jan 21, 2017 10:30:51 PM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+WARNING: CSS error: http://localhost:59283/static/0153751c/css/style.css [461:26] Error in expression. Invalid token "=". Was expecting one of: <S>, <COMMA>, "/", <PLUS>, "-", <HASH>, <STRING>, ")", <URI>, "inherit", <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <DIMENSION>, <PERCENTAGE>, <NUMBER>, <FUNCTION>, <IDENT>.
+Jan 21, 2017 10:30:51 PM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+WARNING: CSS error: http://localhost:59283/static/0153751c/css/style.css [461:31] Error in style rule. Invalid token "\n". Was expecting one of: "}", ";".
+Jan 21, 2017 10:30:51 PM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler warning
+WARNING: CSS warning: http://localhost:59283/static/0153751c/css/style.css [461:31] Ignoring the following declarations in this rule.
+Jan 21, 2017 10:30:51 PM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+WARNING: CSS error: http://localhost:59283/static/0153751c/css/style.css [1104:5] Error in style rule. Invalid token "/". Was expecting one of: <S>, "}", ";", <IDENT>.
+Jan 21, 2017 10:30:51 PM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler warning
+WARNING: CSS warning: http://localhost:59283/static/0153751c/css/style.css [1104:5] Ignoring the following declarations in this rule.
+Jan 21, 2017 10:30:52 PM com.gargoylesoftware.htmlunit.html.InputElementFactory createElementNS
+INFO: Bad input type: "number", creating a text input
+Jan 21, 2017 10:30:52 PM com.gargoylesoftware.htmlunit.html.InputElementFactory createElementNS
+INFO: Bad input type: "number", creating a text input
+Jan 21, 2017 10:30:52 PM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+WARNING: CSS error: http://localhost:59283/adjuncts/0153751c/org/kohsuke/stapler/codemirror/lib/codemirror.css [112:17] Error in style rule. Invalid token ":". Was expecting one of: <S>, "}", <COMMA>, ";", "/", <PLUS>, "-", <HASH>, <STRING>, <URI>, "!", "inherit", <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <DIMENSION>, <PERCENTAGE>, <NUMBER>, <FUNCTION>, <IDENT>.
+Jan 21, 2017 10:30:52 PM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler warning
+WARNING: CSS warning: http://localhost:59283/adjuncts/0153751c/org/kohsuke/stapler/codemirror/lib/codemirror.css [112:17] Ignoring the following declarations in this rule.
+Jan 21, 2017 10:30:52 PM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+WARNING: CSS error: http://localhost:59283/adjuncts/0153751c/org/kohsuke/stapler/codemirror/lib/codemirror.css [115:49] Error in pseudo class or element. Invalid token "#nonsense_id". Was expecting one of: <S>, ")", <IDENT>.
+Jan 21, 2017 10:30:52 PM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler warning
+WARNING: CSS warning: http://localhost:59283/adjuncts/0153751c/org/kohsuke/stapler/codemirror/lib/codemirror.css [115:49] Ignoring the whole rule.
+Jan 21, 2017 10:30:56 PM com.gargoylesoftware.htmlunit.html.InputElementFactory createElementNS
+INFO: Bad input type: "number", creating a text input
+Jan 21, 2017 10:30:56 PM com.gargoylesoftware.htmlunit.html.InputElementFactory createElementNS
+INFO: Bad input type: "number", creating a text input
+Jan 21, 2017 10:30:56 PM com.gargoylesoftware.htmlunit.html.InputElementFactory createElementNS
+INFO: Bad input type: "number", creating a text input
+Jan 21, 2017 10:30:56 PM com.gargoylesoftware.htmlunit.html.InputElementFactory createElementNS
+INFO: Bad input type: "number", creating a text input
+Jan 21, 2017 10:30:58 PM com.gargoylesoftware.htmlunit.javascript.host.Document jsxFunction_createElement
+SEVERE: Unexpected exception occurred while parsing HTML snippet
+Jan 21, 2017 10:30:58 PM com.gargoylesoftware.htmlunit.javascript.StrictErrorReporter runtimeError
+SEVERE: runtimeError: message=[Unexpected exception occurred while parsing HTML snippet: input name="x"] sourceName=[http://localhost:59283/static/0153751c/scripts/prototype.js] line=[1927] lineSource=[null] lineOffset=[0]
+Jan 21, 2017 10:30:59 PM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+WARNING: CSS error: http://localhost:59283/static/0153751c/css/style.css [180:26] Error in expression. Invalid token "=". Was expecting one of: <S>, <COMMA>, "/", <PLUS>, "-", <HASH>, <STRING>, ")", <URI>, "inherit", <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <DIMENSION>, <PERCENTAGE>, <NUMBER>, <FUNCTION>, <IDENT>.
+Jan 21, 2017 10:30:59 PM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+WARNING: CSS error: http://localhost:59283/static/0153751c/css/style.css [180:31] Error in style rule. Invalid token " ". Was expecting one of: "}", ";".
+Jan 21, 2017 10:30:59 PM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler warning
+WARNING: CSS warning: http://localhost:59283/static/0153751c/css/style.css [180:31] Ignoring the following declarations in this rule.
+Jan 21, 2017 10:30:59 PM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+WARNING: CSS error: http://localhost:59283/static/0153751c/css/style.css [461:26] Error in expression. Invalid token "=". Was expecting one of: <S>, <COMMA>, "/", <PLUS>, "-", <HASH>, <STRING>, ")", <URI>, "inherit", <EMS>, <EXS>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <DIMENSION>, <PERCENTAGE>, <NUMBER>, <FUNCTION>, <IDENT>.
+Jan 21, 2017 10:30:59 PM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+WARNING: CSS error: http://localhost:59283/static/0153751c/css/style.css [461:31] Error in style rule. Invalid token "\n". Was expecting one of: "}", ";".
+Jan 21, 2017 10:30:59 PM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler warning
+WARNING: CSS warning: http://localhost:59283/static/0153751c/css/style.css [461:31] Ignoring the following declarations in this rule.
+Jan 21, 2017 10:30:59 PM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler error
+WARNING: CSS error: http://localhost:59283/static/0153751c/css/style.css [1104:5] Error in style rule. Invalid token "/". Was expecting one of: <S>, "}", ";", <IDENT>.
+Jan 21, 2017 10:30:59 PM com.gargoylesoftware.htmlunit.DefaultCssErrorHandler warning
+WARNING: CSS warning: http://localhost:59283/static/0153751c/css/style.css [1104:5] Ignoring the following declarations in this rule.
+Jan 21, 2017 10:31:00 PM hudson.model.Run execute
+INFO: test0 #1 main build action completed: SUCCESS
+Jan 21, 2017 10:31:00 PM org.mortbay.log.Slf4jLog info
+INFO: Stopped SocketConnector@0.0.0.0:59283
